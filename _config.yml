@@ -176,18 +176,18 @@ kramdown:
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
-#   -
-#     scope:
-#       path: ""
-#       type: "posts"
-#     values:
-#       layout: "post"
-#       comments: true  # add comments to all blog posts
-#       social-share: true # add social media sharing buttons to all blog posts
-#       readtime: false # add estimated reading time on all blog posts
   -
     scope:
-      path: "" # all files
+      path: ""
+      type: "page"
+    values:
+      layout: "page"
+      comments: true  # add comments to all blog posts
+      social-share: true # add social media sharing buttons to all blog posts
+      readtime: false # add estimated reading time on all blog posts
+  -
+    scope:
+      path: "aboutme" # all files
     values:
       layout: "page"
       show-avatar: true
